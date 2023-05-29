@@ -2,7 +2,6 @@ function rajz3()
 %UNTITLED6 Summary of this function goes here
 %   Detailed explanation goes here
 [x,y] = meshgrid(-pi:0.01:pi+0.01,-pi:0.01:pi+0.01);
-fgv = exp(-x.^2-y.^2);
 
 szin = x;
 szin = repmat(szin,1,1,3);
